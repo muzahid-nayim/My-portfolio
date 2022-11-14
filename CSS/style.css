@@ -13,7 +13,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+ font-family: 'Aldrich', sans-serif;
+
+    /* font-family: 'Roboto', sans-serif; */
 }
 
 :root{
@@ -24,7 +26,7 @@
     --logoColor: rgb(5, 5, 5);
     --navbarColor: rgb(6, 212, 168);
     --iconColor:gray;
-    --section-bg:rgb(226, 226, 226);
+    --section-bg:rgba(226, 226, 226, 0.452);
 }
 
 
@@ -310,7 +312,7 @@ li{
 }
 .card{
     transition: all .3s;
-    box-shadow: 1px 1px 5px var(--box-shadow);
+    /* box-shadow: 1px 1px 5px var(--box-shadow); */
     max-width: 500px;
 }
 .card:hover{
@@ -431,8 +433,10 @@ font-family: 'Fjalla One', sans-serif;
     
 }
 .about-text h2{
-    font-family: 'Teko', sans-serif;
     font-size: 35px;
+ font-family: 'Aldrich', sans-serif;
+ padding: 10px 0;
+
 }
 
 .about-text p{
@@ -453,10 +457,11 @@ font-family: 'Fjalla One', sans-serif;
 }
 
 .about-image{
-    height: 510px;
-    width: 400px;
-    border: dotted rgb(63, 63, 63) 1px;
+    height: 50%;
+    width: 50%;
+    /* border: dotted rgb(63, 63, 63) 1px; */
     overflow: hidden;
+    border-radius: 30px;
 }
 
     /* ABOUT ME END ⏫⏫⏫⏫⏫⏫⏫⏫⏫⏫⏫⏫⏫⏫⏫ */
@@ -467,12 +472,28 @@ font-family: 'Fjalla One', sans-serif;
         display: flex;
         flex-direction: column;
 
+        background-image:
+    linear-gradient(to bottom, #18181862, #1b1b1bb0),
+    url('/IMGE/probg.jpg');
+    
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
     }
 
     .upper{
-        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80px;
     }
 
+
+    .upper h1{
+ font-family: 'Aldrich', sans-serif;
+ color: var(--textcolorwh);
+        
+    }
     .middle{
         display: flex;
         flex-wrap: wrap;
@@ -483,21 +504,75 @@ font-family: 'Fjalla One', sans-serif;
         .cd{
             
             width: 100%;
-            border: solid;
-            height: 100px;
-            background-color: darkseagreen;
+            /* margin: 20px; */
+            /* border: solid; */
+            height: 350px;
+            /* background-color: rgb(53, 182, 53); */
+            display: flex;
+            justify-content: center;
+            /* margin: 5px; */
+            align-items: center;
+            margin-top: 20px;
+            /* border-radius: 5px; */
         }
 
     .down{
         display: flex;
         justify-content: end;
+        align-items: center;
+        height: 100px;
     }
 
+    .down a{
+        background-color: var(--navbarColor);
+        padding: 10px 20px;
+        border-radius: 3px;
+        color: var(--textcolorwh);
+        transition: all .2s;
+        margin: 0 20px;
+    }
 
+    .down a:hover{
+        background-color: aqua;
+        padding: 10px 25px;
+    }
 
+    .pro{
+        height: 95%;
+        width: 90%;
+        max-width: 300px;
+        /* background: url("/IMGE/project-planning-header@2x.png"); */
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
 
+        background-image:
+        
+        url('https://wallpaperaccess.com/full/2138144.jpg');
+        display: flex;
+        justify-content: center;
+        align-items: center;   
+        border-radius: 5px;
+        transition: all .2s;
+        border: solid 1px;
+    }
 
+    .pro h2{
+        opacity: 0;
+        color: rgb(94, 255, 0);
+        font-size: 30px;
+    }
+    
+    .pro:hover{
+        transform: scale(1.020);
+        background-image:
+        linear-gradient(to bottom, rgba(0, 0, 255, 0.356),#0000ff6b),
+        url('https://wallpaperaccess.com/full/2138144.jpg');
+        
+    }
 
+    .pro:hover.pro h2{
+        opacity: 1;
+    }
 
 
 

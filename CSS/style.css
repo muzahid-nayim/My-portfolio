@@ -243,6 +243,12 @@ li{
     color: var(--textcolorwh);
     font-weight: 600;
 }
+
+#learn{
+    background-color: var(--navbarColor);
+}
+
+
 #learn:hover{
     background-color: var(--navbarColor);
     

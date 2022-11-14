@@ -349,7 +349,7 @@ li{
 
 .qote{
   text-align: center;
-  padding: 10px;
+  padding: 5px;
   font-family: 'Aldrich', sans-serif;
     background: rgba(49, 49, 49, 0.562);
   font-size: 18px;
@@ -372,7 +372,7 @@ font-family: 'Wallpoet', cursive;
 
 
 .bio-ul{
-    padding: 10px;
+    padding: 5px;
     line-height: 30px;
     color: var(--textcolorwh);
     padding: 10px;

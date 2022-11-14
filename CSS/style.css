@@ -280,7 +280,7 @@ li{
 }
 
 .card1,.card2,.card3{
-    width: 70%;
+    width: 80%;
     height: 80%;
     /* border: solid black 1px; */
     /* display: flex;
@@ -349,7 +349,7 @@ li{
 
 .qote{
   text-align: center;
-  padding: 5px;
+  padding: 10px;
   font-family: 'Aldrich', sans-serif;
     background: rgba(49, 49, 49, 0.562);
   font-size: 18px;
@@ -372,7 +372,7 @@ font-family: 'Wallpoet', cursive;
 
 
 .bio-ul{
-    padding: 5px;
+    padding: 10px;
     line-height: 30px;
     color: var(--textcolorwh);
     padding: 10px;

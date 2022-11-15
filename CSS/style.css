@@ -468,7 +468,7 @@ font-family: 'Fjalla One', sans-serif;
 
 
 
-    .project-container{
+    .project-container ,.photo-container{
         display: flex;
         flex-direction: column;
 
@@ -561,6 +561,8 @@ font-family: 'Fjalla One', sans-serif;
         color: rgb(94, 255, 0);
         font-size: 30px;
     }
+
+   
     
     .pro:hover{
         transform: scale(1.020);
@@ -579,21 +581,99 @@ font-family: 'Fjalla One', sans-serif;
 
 
 
+    .pho{
+
+        height: 85%;
+        width: 90%;
+        max-width: 250px;
+        /* background: url("/IMGE/project-planning-header@2x.png"); */
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;   
+        border-radius: 5px;
+        transition: all .2s;
+        border: solid 1px;
+    }
+
+    .ph{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        /* border: solid; */
+        gap: 10px;
+    }
+
+
+    .ph h2{
+        color: var(--textcolorwh);
+    }
+
+hr{
+    width: 100%;
+    color: gray;
+    height: 1px;
+}
+
+
+.photo-link{
+    color: var(--textcolorwh);
+}
+
+.photo-link a{
+    color: var(--navbarColor);
+    padding: 0 5px;
+}
 
 
 
+ .pho h2{
+        opacity: 0;
+        color: rgb(94, 255, 0);
+        font-size: 30px;
+    }
+
+
+    .pho:hover{
+        transform: scale(1.020);
+       
+    }
+
+
+    .pho1{
+        background-image: url(/IMGE/IMG_20220627_185753_445.jpg);
+    }
 
 
 
+    .pho2{
+        background-image: url(/IMGE/IMG_20220805_185524_463.jpg);
 
+    }
 
+    .pho3{
+        background-image: url(/IMGE/IMG_20220830_101039_823.jpg);
 
+    }
 
+    .pho4{
+        background-image: url(/IMGE/ZW8jSJqtMRBHbo2Mw9Fo--1--4vj0z.jpg);
 
+    }
 
+    .pho5{
+        background-image: url(/IMGE/IMG_20221013_125557_68.jpg);
 
+    }
 
+    .pho6{
+        background-image: url(/IMGE/IMG_20220803_163158_640.jpg);
 
+    }
 
 
 

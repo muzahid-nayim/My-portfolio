@@ -69,7 +69,9 @@
         width: 49%;
     }
 
-   
+    .ftlg,.messege,.footer-contact{
+        width: 30%;
+    }
 
 
 }

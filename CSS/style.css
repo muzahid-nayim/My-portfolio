@@ -19,14 +19,14 @@
 }
 
 :root{
-    --bodyBgcolor:white;
+    --bodyBgcolor:rgb(19, 20, 22);
     --textColorbl: black;
     --textcolorwh:white;
     --box-shadow:rgb(199, 199, 199);
     --logoColor: rgb(5, 5, 5);
     --navbarColor: rgb(6, 212, 168);
     --iconColor:gray;
-    --section-bg:rgba(226, 226, 226, 0.452);
+    --section-bg:rgba(63, 63, 63, 0.068);
 }
 
 
@@ -41,6 +41,9 @@
     width: 95%;
 }
 
+body{
+    background-color: var(--bodyBgcolor);
+}
 
 header{
     width: 100%;
@@ -244,6 +247,23 @@ li{
     background-color: rgba(0, 248, 54, 0.027);
     color: var(--textcolorwh);
     font-weight: 600;
+}
+
+
+
+#more{
+    margin: 3px 8px;
+    color: var(--navbarColor);
+    font-weight: 600;
+    border: solid 1px;
+    transition: all .2s;
+    padding: 2px;
+    margin-top: 8px;
+}
+
+
+#more:hover{
+    color: red;
 }
 
 #learn{
@@ -676,6 +696,104 @@ hr{
     }
 
 
+    .photo-container{
+        background-image:
+    linear-gradient(to bottom, #18181862, #1b1b1bb0),
+    url('/IMGE/album\ bg.webp');
+    }
+
+
+
+
+
+
+
+
+    footer{
+        width: 100%;
+        /* border: solid red; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: #000;
+        padding: 80px 0;
+    }
+    .footer-top{
+        width: 100%;
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: center;
+        align-items: center;
+        /* border: solid greenyellow ; */
+        gap: 10px;
+        flex-wrap: wrap;
+        border-bottom: solid gray;
+        padding: 10px 0;
+    }
+
+
+    .footer-contact{
+        display: flex;
+        flex-direction: column;
+        color: var(--textcolorwh);
+    }
+
+    .footer-contact a{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: var(--textcolorwh);
+        padding: 3px 0;
+        transition: all .3s;
+    }
+    
+    .footer-contact a:hover{
+        background: var(--navbarColor);
+
+    }
+
+
+    
+    form p{
+        color: var(--textcolorwh);
+    }
+
+    form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 20px 0;
+    }
+
+    form input[type = text]{
+        width: 100%;
+        padding: 5px;
+        margin-top: 5px;
+        border: none;
+        outline: none;
+        font-size: 15px;
+        max-width: 400px;
+    }
+
+
+
+    form input[type = submit]{
+        width: 100px;
+        padding: 8px 10px;
+        border: none;
+        margin: 5px 0;
+        color: var(--textcolorwh);
+        background: var(--navbarColor);
+    }
+
+
+    .ftlg,.messege,.footer-contact{
+        box-sizing: border-box;
+        width: 50.1%;
+    }
 
 
 
@@ -691,6 +809,83 @@ hr{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .footer-bottom{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 30px 0;
+    }
+
+    .contact{
+        /* border:  solid goldenrod; */
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .contact-ul,.copyright{
+        max-width: 550px;
+        
+        /* border: solid; */
+        justify-content: center;
+        align-items: center;
+        display: flex;   
+    }
+
+
+    .contact-ul{
+        /* border: solid rebeccapurple; */
+        justify-content: space-evenly;
+        width: 90%;
+    }
+
+
+    .contact-ul li a i{
+        font-size: 30px;
+        color: var(--navbarColor);
+    }
+
+
+    .copyright p{
+        color: var(--textcolorwh);
+        margin-top: 20px;
+        font-style: italic;
+        font-size: 15px;
+        padding: 5px 0 ;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+
+
+    #footer-logo{
+        color: var(--textcolorwh);
+        font-size: 30px;
+        padding: 20px 0;
+    }
 /* 
 
  font-family: 'Aldrich', sans-serif;

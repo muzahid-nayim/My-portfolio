@@ -790,6 +790,10 @@ hr{
     }
 
 
+    #footer-logo{
+        text-align: center;
+    }
+
     .ftlg,.messege,.footer-contact{
         box-sizing: border-box;
         width: 50.1%;

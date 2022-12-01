@@ -586,13 +586,13 @@ font-family: 'Fjalla One', sans-serif;
         
     }
 
-    .tesla{
-        background-image: url(/IMGE/tesla.png);
+    .eduport{
+        background-image: url(/IMGE/eduport.png);
     }
 
-    .tesla:hover{
+    .eduport:hover{
         background-image:  linear-gradient(to bottom, rgba(0, 0, 255, 0.356),#0000ff6b),
-        url('/IMGE/tesla.png');
+        url('/IMGE/eduport.png');
     }
    
 

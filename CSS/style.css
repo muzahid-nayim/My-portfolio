@@ -586,6 +586,16 @@ font-family: 'Fjalla One', sans-serif;
         
     }
 
+    .tesla{
+        background-image: url(/IMGE/tesla.png);
+    }
+
+    .tesla:hover{
+        background-image:  linear-gradient(to bottom, rgba(0, 0, 255, 0.356),#0000ff6b),
+        url('/IMGE/tesla.png');
+    }
+   
+
     .eduport{
         background-image: url(/IMGE/eduport.png);
     }
@@ -593,16 +603,6 @@ font-family: 'Fjalla One', sans-serif;
     .eduport:hover{
         background-image:  linear-gradient(to bottom, rgba(0, 0, 255, 0.356),#0000ff6b),
         url('/IMGE/eduport.png');
-    }
-   
-
-    .fiverr{
-        background-image: url(/IMGE/fiverr.png);
-    }
-
-    .fiverr:hover{
-        background-image:  linear-gradient(to bottom, rgba(0, 0, 255, 0.356),#0000ff6b),
-        url('/IMGE/fiverr.png');
     }
 
 

@@ -576,20 +576,96 @@ font-family: 'Fjalla One', sans-serif;
         border: solid 1px;
     }
 
-    .pro h2{
-        opacity: 0;
-        color: rgb(94, 255, 0);
-        font-size: 30px;
+    .testy{
+        background-image: url(/IMGE/testy-food.png);
     }
 
+    .testy:hover{
+       background-image:  linear-gradient(to bottom, rgba(0, 0, 255, 0.356),#0000ff6b),
+        url('/IMGE/testy-food.png');
+        
+    }
+
+    .tesla{
+        background-image: url(/IMGE/tesla.png);
+    }
+
+    .tesla:hover{
+        background-image:  linear-gradient(to bottom, rgba(0, 0, 255, 0.356),#0000ff6b),
+        url('/IMGE/tesla.png');
+    }
    
-    
+
+    .fiverr{
+        background-image: url(/IMGE/fiverr.png);
+    }
+
+    .fiverr:hover{
+        background-image:  linear-gradient(to bottom, rgba(0, 0, 255, 0.356),#0000ff6b),
+        url('/IMGE/fiverr.png');
+    }
+
+
+    .todo{
+        background-image: url(/IMGE/todo.png);
+    }
+   
+
+    .todo:hover{
+        background-image:  linear-gradient(to bottom, rgba(0, 0, 255, 0.356),#0000ff6b),
+        url('/IMGE/todo.png');
+    }
+
+    .dashboard{
+        background-image: url(/IMGE/dashboard.png);
+    }
+
+    .dashboard:hover{
+        background-image:  linear-gradient(to bottom, rgba(0, 0, 255, 0.356),#0000ff6b),
+        url('/IMGE/dashboard.png');
+    }
+
+
+    .d2{
+        background-image: url(/IMGE/d2.png);
+    }
+
+    .d2:hover{
+        background-image:  linear-gradient(to bottom, rgba(0, 0, 255, 0.356),#0000ff6b),
+        url('/IMGE/d2.png');
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     .pro h2{
+        opacity: 0;
+        color: rgb(17, 0, 253);
+        font-size: 30px;
+    }
     .pro:hover{
         transform: scale(1.020);
-        background-image:
+        /* background-image:
         linear-gradient(to bottom, rgba(0, 0, 255, 0.356),#0000ff6b),
         url('https://wallpaperaccess.com/full/2138144.jpg');
-        
+         */
     }
 
     .pro:hover.pro h2{
